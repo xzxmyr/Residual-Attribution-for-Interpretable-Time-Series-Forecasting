@@ -7,8 +7,7 @@
 
 ## 📊 核心可视化：动态权重分配
 我们发现，模型并非静态地处理时序数据，而是根据序列特征动态调节权重。以下是模型在训练过程中对“时间规律（w1）”与“变量耦合（w2）”的动态权重分配趋势：
-
-![Dynamic Weight Allocation](weight_dynamics.jpg)
+![Weight Dynamics](assets/weight_dynamics.jpg)
 
 *从图中可以看出，模型能够自适应地平衡时间周期性与变量间的非线性相关性。*
 
